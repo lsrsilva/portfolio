@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+html, body {
+    height: 100%;
+}
+
+label {
+    font-size: 0.85rem;
+    height: 16px;
+}
+
+footer {
+    text-align: center;
+    color: #7A7A7A;
+    height: 24px;
+}
+
+header {
+    min-height: 54px;
+    background: #4784c5;
+}
