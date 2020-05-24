@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Some applications developed by me while studing that you will need sometime!">
+    <meta name="robots" content="index, follow">
+    <meta name="keywords"
+    content="Lucas, lucas, LUCAS, Silva, SILVA, silva, Rezende, rezende, REZENDE, Lucas da Silva Rezende, LUCAS SILVA REZENDE,
+     LUCAS DA SILVA REZENDE, Lucas Silva, Lucas Rezende, Lucas da Silva, Lucas Silva Rezende, App, Ideas, app-idea, Development, Desenvolvimento, Software,
+     Developer, Desenvolvedor, JAVA, PHP, Spring, Framework, Freelancer, Freela, Computação, Computing">
+    <link rel="author" href="https://github.com/lsrsilva">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/binary-to-decimal.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="js/functions.js"></script>
+    <title>Binary to Decimal Convert</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            
+        </header>
+        <main class="converter">
+            <div class="converter-card">
+                <div class="converter-header">
+                    Binary to Decimal Converter
+                </div>
+                <div class="converter-form">
+                    <div>
+                        <label for="binaryInput">Binary code</label>
+                        <input id="binaryInput" type="text" placeholder="Write the binary code" onkeypress="acceptZeroOrOne(event);" onkeyup="convertDecimalToBinary(binaryInput.value)" />
+                    </div>
+                    
+                    <div>
+                        <label for="result">Decimal</label>
+                        <input id="result" type="text" placeholder="Value in Decimal" readonly />
+                    </div>
+                </div>
+                <div>
+                    <button class="converter-button" onclick="convertDecimalToBinary(binaryInput.value)">Convert</button>
+                </div>
+            </div>
+        </main>
+        <footer>Developed by Lucas da Silva Rezende</footer>
+    </div>
+</body>
+</html>

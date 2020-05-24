@@ -1,0 +1,19 @@
+html, body {
+    height: 100%;
+}
+
+label {
+    font-size: 0.85rem;
+    height: 16px;
+}
+
+footer {
+    text-align: center;
+    color: #7A7A7A;
+    height: 24px;
+}
+
+header {
+    min-height: 54px;
+    background: #4784c5;
+}
